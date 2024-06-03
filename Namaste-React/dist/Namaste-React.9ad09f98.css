@@ -1,0 +1,63 @@
+.Header {
+  display: flex;
+  justify-content: space-between ;
+  margin: 8px;
+  border: 1px solid black;
+  background-color: rgb(157, 216, 180);
+  word-spacing: 5px;
+}
+
+.nav-items > ul{
+  list-style-type:none;
+  display: flex;
+  font-family:jokerman;
+
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 75px;
+}
+
+.card{
+  height:350px;
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 9px;
+  background-color:rgb(243, 219, 188);
+  font-family:Times of roman;
+}
+
+.card > img {
+  width: 100%;
+  display:flex;
+}
+.restaurantList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 200px;
+  background:lightgray;
+  margin: 20px;
+  display: flex;
+}
+
+.menu {
+  display:flex;
+}
+
+.useOnline {
+  height:50px;
+  border:dotted;
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=/Namaste-React.9ad09f98.css.map */

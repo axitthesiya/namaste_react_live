@@ -1,0 +1,33 @@
+{
+  "name": "namaste-react",
+  "proxy": "https://www.swiggy.com/",
+  "version": "1.0.0",
+  "description": "this is live teaching",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "akshu patel",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "autoprefixer": "^10.4.14",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.23",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0", 
+    "react-router-dom": "^6.11.1",
+    "react-shimmer": "^3.2.0"
+  },
+  "browsersList": [
+    "last 2 chrome versions"
+  ]
+}
